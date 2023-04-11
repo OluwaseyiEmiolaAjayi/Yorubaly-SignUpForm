@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="gold">
+    <meta name="msapplication-navbutton-color" content="gold">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="/https://www.shutterstock.com/shutterstock/photos/1983703580/display_1500/stock-vector-the-yoruba-odua-symbol-known-as-olokun-head-with-origin-from-ile-ife-in-osun-state-of-nigeria-1983703580.jpg">
+    <link rel="'shortcut icon" sizes="130x180"
+        href="https://www.shutterstock.com/shutterstock/photos/1983703580/display_1500/stock-vector-the-yoruba-odua-symbol-known-as-olokun-head-with-origin-from-ile-ife-in-osun-state-of-nigeria-1983703580.jpg"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="card-container slideUp-animation">
+        <div class="image-container">
+            <h1 class='company'>Yorubaly<sup>&trade;</sup></h1>
+            <img src="https://i.pinimg.com/564x/9e/28/05/9e280555a436cc782c57ff44b03cbfda.jpg" class="illustration"
+                alt="The Yoruba People">
+        </div>
+
+        <form action="" method="">
+            <div class="form-container slideRight-animation">
+
+                <h1 class="form-header">Let's Get Started</h1>
+                <div class="input-container">
+                    <label id='name-label' for="name"></label>
+                    <input id='first-name' type='text' name="name" required>
+                    <span>First Name</span>
+                    <div class="error"></div>
+                </div>
+
+                <div class="input-container">
+                    <label id='name-label' for="name"></label>
+                    <input id='last-name' type='text' name="name" required>
+                    <span>Last Name</span>
+                    <div class="error"></div>
+                </div>
+
+                <div class="input-container">
+                    <label id='email-label' for="email"></label>
+                    <input id='email' type='email' name="email" required />
+                    <span>Email</span>
+                    <div class="error"></div>
+                </div>
+
+                <div class="input-container">
+                    <label for="phone" id="phone"></label>
+                    <input type="tel" name="phone" id="phone" required>
+                    <span>Phone</span>
+                    <div class="error"></div>
+                </div>
+
+                <div class="input-container">
+                    <label id='number-label'></label>
+                    <input id='user-password' name="user-password" class="user-password" type='password' min='6'
+                        max='200' required>
+                    <span>Password</span>
+                    <div class="error"></div>
+                </div>
+
+                <div class="input-container">
+                    <label id='number-label'></label>
+                    <input id='user-password' name="user-password" class="password-confirmation" type='password' min='6'
+                        max='200' required>
+                    <span>Confirm Password</span>
+                    <div class="error"></div>
+                </div>
+
+
+                <div class="no-grid">
+                    <div class="input-container">
+                        <label id='name-label'></label>
+                        What Do You Like Most About About Being Yoruba?
+                        <select id='dropdown'>
+                            <option value=''>Select One</option>
+                            <option value='1'>Our Language</option>
+                            <option value='2'>The Delicious Food</option>
+                            <option value='3'>Our Beautiful ladies and handsome men</option>
+                            <option value='4'>The melodious songs and captivating dance</option>
+                            <option value='5'>Our Culture</option>
+                            <option value='6'>The Technology</option>
+                            <option value='7'>Our Intellect</option>
+                        </select>
+                    </div>
+
+
+                    <div id="yes" required>
+                        <div class="space">
+                            <label>Can You Contribute To The Advancement Of The Yoruba Nation?</label>
+                        </div>
+                        <label><input id='utilization' type='radio' value='value' name='Contribution' />Yes</label>
+                        <label><input id='utilization' type='radio' value='value' name='Contribution' />No</label>
+                    </div>
+
+
+                    <div class="space">
+                        <label>In What Way(s) Will You Contribute To The Yoruba Dynasty</label>
+                    </div>
+
+                    <div class="grid-container">
+
+                        <div class="left-list">
+                            <ul>
+                                <li>
+                                    <label><input id='utilization' type='checkbox' value='value'
+                                            name='Contribution' />Entertainment</label>
+                                </li>
+                                <li>
+                                    <label><input id='utilization' type='checkbox' value='value'
+                                            name='Contribution' />Agriculture</label>
+                                </li>
+                                <li>
+                                    <label><input id='utilization' type='checkbox' value='value'
+                                            name='Contribution' />Technology</label>
+                                </li>
+                                <li>
+                                    <label><input id='utilization' type='checkbox' value='value'
+                                            name='Contribution' />Literature</label>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="right-list">
+                            <ul>
+                                <li>
+                                    <label><input id='utilization' type='checkbox' value='value'
+                                            name='Contribution' />Fashion</label>
+                                </li>
+                                <li>
+                                    <label><input id='utilization' type='checkbox' value='value'
+                                            name='Contribution' />Social
+                                        Media</label>
+                                </li>
+                                <li>
+                                    <label><input id='utilization' type='checkbox' value='value'
+                                            name='Contribution' />Politics</label>
+                                </li>
+                                <li>
+                                    <label><input id='utilization' type='checkbox' value='value'
+                                            name='Contribution' />Beauty and
+                                        Lifestyle</label>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <textarea id='add' name='add' rows='3' cols='100'
+                            placeholder='Share Your Ideas- and Dreams- With Us'></textarea>
+                    </div>
+                </div>
+
+
+                <div id="btm">
+                    <button type="submit" class="submit-btn">Create Account</button>
+                    <p class="btm-text">Already have an account..?<span class=btm-text-highlighted> Login in</span></p>
+                </div>
+                </section>
+        </form>
+    </main>
+
+
+
+</body>
+
+</html>
